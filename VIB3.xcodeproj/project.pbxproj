@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D80CC854251AAE52000C03E6 /* EQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80CC853251AAE52000C03E6 /* EQViewController.swift */; };
+		D80CC859251ABCE7000C03E6 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D80CC858251ABCE7000C03E6 /* AudioUnit.framework */; };
+		D80CC85B251ABCF2000C03E6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D80CC85A251ABCF2000C03E6 /* AVFoundation.framework */; };
+		D80CC85D251ABCF8000C03E6 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D80CC85C251ABCF8000C03E6 /* AVKit.framework */; };
+		D84C4B32251BCCA4007D13E1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D84C4B31251BCCA3007D13E1 /* AudioToolbox.framework */; };
+		D8643DB1251E1A1900CCBF48 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8643DB0251E1A1900CCBF48 /* PlayerViewController.swift */; };
+		D8675C1F2521495000BC4FC5 /* SidebarTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8675C1E2521495000BC4FC5 /* SidebarTabViewController.swift */; };
 		D8D18492251A35B5008BBEE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D18491251A35B5008BBEE3 /* AppDelegate.swift */; };
 		D8D18494251A35B5008BBEE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D18493251A35B5008BBEE3 /* ViewController.swift */; };
 		D8D18497251A35B5008BBEE3 /* VIB3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D8D18495251A35B5008BBEE3 /* VIB3.xcdatamodeld */; };
@@ -14,6 +21,7 @@
 		D8D1849C251A35BE008BBEE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D1849A251A35BE008BBEE3 /* Main.storyboard */; };
 		D8D184A8251A35BF008BBEE3 /* VIB3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D184A7251A35BF008BBEE3 /* VIB3Tests.swift */; };
 		D8D184B3251A35BF008BBEE3 /* VIB3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D184B2251A35BF008BBEE3 /* VIB3UITests.swift */; };
+		D8D184C1251A471E008BBEE3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D184C0251A471E008BBEE3 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D80CC853251AAE52000C03E6 /* EQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EQViewController.swift; sourceTree = "<group>"; };
+		D80CC858251ABCE7000C03E6 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		D80CC85A251ABCF2000C03E6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D80CC85C251ABCF8000C03E6 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		D84C4B31251BCCA3007D13E1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D8643DB0251E1A1900CCBF48 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		D8675C1E2521495000BC4FC5 /* SidebarTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarTabViewController.swift; sourceTree = "<group>"; };
 		D8D1848E251A35B5008BBEE3 /* VIB3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIB3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D18491251A35B5008BBEE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8D18493251A35B5008BBEE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,6 +63,7 @@
 		D8D184AE251A35BF008BBEE3 /* VIB3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIB3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D184B2251A35BF008BBEE3 /* VIB3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIB3UITests.swift; sourceTree = "<group>"; };
 		D8D184B4251A35BF008BBEE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8D184C0251A471E008BBEE3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +71,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D80CC85B251ABCF2000C03E6 /* AVFoundation.framework in Frameworks */,
+				D80CC859251ABCE7000C03E6 /* AudioUnit.framework in Frameworks */,
+				D80CC85D251ABCF8000C03E6 /* AVKit.framework in Frameworks */,
+				D84C4B32251BCCA4007D13E1 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +95,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D80CC857251ABCE7000C03E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D84C4B31251BCCA3007D13E1 /* AudioToolbox.framework */,
+				D80CC85C251ABCF8000C03E6 /* AVKit.framework */,
+				D80CC85A251ABCF2000C03E6 /* AVFoundation.framework */,
+				D80CC858251ABCE7000C03E6 /* AudioUnit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D8D18485251A35B5008BBEE3 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +113,7 @@
 				D8D184A6251A35BF008BBEE3 /* VIB3Tests */,
 				D8D184B1251A35BF008BBEE3 /* VIB3UITests */,
 				D8D1848F251A35B5008BBEE3 /* Products */,
+				D80CC857251ABCE7000C03E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +131,13 @@
 			isa = PBXGroup;
 			children = (
 				D8D18491251A35B5008BBEE3 /* AppDelegate.swift */,
+				D8675C1E2521495000BC4FC5 /* SidebarTabViewController.swift */,
 				D8D18493251A35B5008BBEE3 /* ViewController.swift */,
 				D8D18498251A35BE008BBEE3 /* Assets.xcassets */,
+				D80CC853251AAE52000C03E6 /* EQViewController.swift */,
 				D8D1849A251A35BE008BBEE3 /* Main.storyboard */,
+				D8643DB0251E1A1900CCBF48 /* PlayerViewController.swift */,
+				D8D184C0251A471E008BBEE3 /* MainViewController.swift */,
 				D8D1849D251A35BE008BBEE3 /* Info.plist */,
 				D8D1849E251A35BE008BBEE3 /* VIB3.entitlements */,
 				D8D18495251A35B5008BBEE3 /* VIB3.xcdatamodeld */,
@@ -259,7 +295,11 @@
 			files = (
 				D8D18497251A35B5008BBEE3 /* VIB3.xcdatamodeld in Sources */,
 				D8D18494251A35B5008BBEE3 /* ViewController.swift in Sources */,
+				D80CC854251AAE52000C03E6 /* EQViewController.swift in Sources */,
 				D8D18492251A35B5008BBEE3 /* AppDelegate.swift in Sources */,
+				D8675C1F2521495000BC4FC5 /* SidebarTabViewController.swift in Sources */,
+				D8D184C1251A471E008BBEE3 /* MainViewController.swift in Sources */,
+				D8643DB1251E1A1900CCBF48 /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,13 +464,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = VIB3/VIB3.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZP8R746888;
 				INFOPLIST_FILE = VIB3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = com.VIB3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -442,13 +485,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = VIB3/VIB3.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZP8R746888;
 				INFOPLIST_FILE = VIB3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = com.VIB3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -462,6 +508,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZP8R746888;
 				INFOPLIST_FILE = VIB3Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -483,6 +530,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZP8R746888;
 				INFOPLIST_FILE = VIB3Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -503,6 +551,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZP8R746888;
 				INFOPLIST_FILE = VIB3UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -522,6 +571,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZP8R746888;
 				INFOPLIST_FILE = VIB3UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
